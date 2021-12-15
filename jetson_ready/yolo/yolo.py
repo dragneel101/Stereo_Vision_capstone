@@ -88,7 +88,7 @@ if not Path(nnBlobPath).exists():
     import sys
     raise FileNotFoundError(f'Required file/s not found, please run "{sys.executable} install_requirements.py"')
 
-# Tiny yolo v3/4 label texts
+# yolo v3 label texts
 labelMap = [
     "person",         "bicycle",    "car",           "motorbike",     "aeroplane",   "bus",           "train",
     "truck",          "boat",       "traffic light", "fire hydrant",  "stop sign",   "parking meter", "bench",
