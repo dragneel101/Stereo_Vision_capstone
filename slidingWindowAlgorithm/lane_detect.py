@@ -3,8 +3,7 @@ import numpy as np  # Import the NumPy scientific computing library
 import edge_detect as edge  # Handles the detection of lane lines
 import matplotlib.pyplot as plt  # Used for plotting and error checking
 
-# Author: Addison Sears-Collins
-# https://automaticaddison.com
+
 # Description: Implementation of the Lane class
 
 filename = 'road.jpg'
