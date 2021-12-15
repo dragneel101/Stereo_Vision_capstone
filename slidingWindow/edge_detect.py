@@ -2,8 +2,6 @@ import cv2  # Import the OpenCV library to enable computer vision
 import numpy as np  # Import the NumPy scientific computing library
 
 
-# Author: Addison Sears-Collins
-# https://automaticaddison.com
 # Description: A collection of methods to detect help with edge detection
 
 def binary_array(array, thresh, value=0):
