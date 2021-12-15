@@ -82,7 +82,7 @@ width, height = screen.width, screen.height
 
 
 # Get argument first
-nnBlobPath = str((Path(__file__).parent / Path('../models/yolo-v4-tiny-tf_openvino_2021.4_6shave.blob')).resolve().absolute())
+nnBlobPath = str((Path(__file__).parent / Path('../models/yolo-v3.blob')).resolve().absolute())
 
 if not Path(nnBlobPath).exists():
     import sys
